@@ -1,9 +1,22 @@
-# ejemplo-unittest
+# Modulo para Unittes
 
-## Modulo para Unittes
+```bash
+  export unittest
+```
 
-export unittest
+Este modulo exporta las funcionalidades de unittest
 
-## Subclase proporcionadora de metodos
+# Estructura basica
 
-unittest.TestCase
+```bash
+  class nameOfClass(unittest.TestCase):
+
+  if __name__ == "__main__":
+    unittest.main()
+```
+
+Estructura basica para la declaracion de pruebas
+
+# Documentacion Unittest
+
+[Unittest docs](https://docs.python.org/3/library/unittest.html)
